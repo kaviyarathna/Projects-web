@@ -1,0 +1,414 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth; 
+ }
+ body{
+    color: grey;  
+    font-family: "Raleway", sans-serif;
+ }
+ .background{
+    position:absolute;
+    height: 100%;
+    width: 100%;
+    background: no-repeat url('/img/infinite-loop-01.jpg');
+    background-position: center;
+    z-index: -1;   
+}  
+nav{
+     width: 100%;
+    position: fixed;
+    top: 0px;
+     
+}
+nav>ul{
+    margin-right:50px;
+    float: right;
+   
+}
+.h2{
+     line-height: 25px;
+    font-size: 23px;
+    padding-left: 50px;
+    padding-top: 20px;
+    color:gray;
+    display: inline-block;
+    font-weight: bold;
+    font-family:sans-serif ;
+}
+
+nav>ul>li{
+    display: inline;
+    transition: all;
+    line-height: 60px;
+    font-family: sans-serif;   
+
+}
+nav>ul>li>a{
+    color:gray;
+    padding: 12px 30px 12px 30px;
+    font-size: 20px;
+    text-decoration: none;
+
+}
+nav>ul>li>a:hover{
+    color: white;
+     background-color: #369;   
+}
+.chb{
+    font-size: 20px;
+    border: 2px solid gray;
+    padding:8px ;
+    border-radius: 5px;
+    float: right;
+    margin:20px;
+    color:gray;
+    cursor: pointer;
+    display: none;   
+}
+#kkk{
+    display:none;
+    
+}  
+#kavi1{
+    
+    background: no-repeat url('/img/infinite-loop-02.jpg');
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+footer{
+   
+    background: no-repeat url('/img/infinite-loop-03.jpg');
+    background-size: 100% 78%;
+    background-attachment: fixed;
+    background-color:black;
+    
+    
+}
+.h3{
+    text-align: center;
+    font-size: 55px;
+    font-family:sans-serif;
+    padding-top: 200px;
+    color: white;
+}
+
+.h4 {
+    text-align: center;
+    color: white;
+    font-size: 20px;   
+}
+.h5 {
+    text-align: center;
+    padding-top: 130px;
+}
+
+#head{
+    background-color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 19px;
+    line-height: 40px;
+}
+#head>p>a{
+    color: #38B;
+    text-decoration: none;
+}
+.title{
+    background-color: white;
+    margin: 70px 50px 50px 50px;
+    font-size: 19px;
+    line-height: 40px;
+    display: flex;
+}
+.subcontent{
+    color: #369;
+    font-size: 30px;  
+}
+#content1>p{
+    padding: 30px 90px 10px 90px;
+}
+#content2>p{
+    padding: 30px 20px 10px 20px;
+}
+#content2>p>a{
+    color: #369;
+    text-decoration: none;
+}
+#content3>p{
+    padding: 30px 90px 10px 83px;
+}
+#content3>a{
+    margin-left: 83px;
+}
+#content4>p{
+    padding: 30px 20px 10px 20px;
+}
+.subcontent>i{
+    color: #369;
+    font-size: 50px;  
+    padding-right: 30px;
+}
+ 
+.title1{
+    background-color: white;
+    margin: 70px 30px 50px 50px;
+    font-size: 19px;
+    line-height: 40px;
+    display: flex;
+}
+#content4>p>a{
+    color: #38B;
+    text-decoration: none;
+}    
+
+.h7 {
+    color: white;
+    text-align: center;
+    font-size: 45px;
+    padding-top: 100px;
+}
+
+.h7>p {
+    font-size: 15px;
+    margin-left: 250px;
+    margin-right: 250px;
+    padding: 30px 80px 50px 80px;
+    line-height: 30px;
+}
+.g1{
+    margin-left: 150px;
+    margin-right: 150px; 
+    display: flex;
+    flex-direction: row; 
+}
+.h8{
+    font-size: 16px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.h9{
+    font-size: 16px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.h89{
+    font-size: 16px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#h10 {
+    background-color: white;
+    color: rgb(12, 59, 145);
+    text-align: center;
+     
+}
+
+#h10>p {
+    
+    color: black;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-bottom: 25px;
+}
+.kk3{
+   
+ margin-left: 250px;
+ margin-right: 250px;
+ overflow: auto;
+}
+#m6{
+    float: left;
+}
+#m7{
+    float: right;
+}
+#m6>img{
+    width:260px;
+     height:350px;
+
+}
+#m7>img{
+    width:260px;
+     height:350px;
+
+}
+#m8>img{
+    width:260px;
+     height:350px;
+}
+
+#h12 {
+    color: white;
+    margin-left: 250px;
+    margin-right: 250px;
+    padding-top: 50px;
+    
+
+}
+  
+.h13{
+    overflow: auto;
+    margin-left: 250px;
+    margin-right: 250px;
+     
+     
+}
+
+.h14 {
+    float: left;
+}
+
+
+
+#m9{
+    padding-top: -80px;
+}
+.h16{
+    color: white;
+   
+}
+.h16>span{
+    padding-left: 20px;
+
+}
+.h16>a>i{
+    color: white; 
+    padding-left:100px;
+    font-size: 30px;
+}
+#m10{
+    color: white; 
+    text-align: center;
+    
+}
+@media screen and (max-width: 992px)
+{
+    nav>ul>li{
+        display: none;
+}
+    
+   
+}
+@media screen and (max-width: 620px)
+{
+    .chb{
+        display: block;
+    }
+    ul{
+        position:fixed;
+        width: 100%;
+        background-color: white;
+        left: -100%;
+        text-align: end; 
+        transition: 0.3s;
+        z-index:2; 
+    }
+    nav>ul>li{
+        display: block;
+        line-height:20px;
+        margin: 30px 0;
+    }
+    
+    #kkk:checked~ul{
+        left:0;
+    }
+
+    nav>ul>li>a{
+        color: black;  
+    }
+   
+    .h3{
+        font-size:60px ;
+        padding-top: 200px;   
+    }
+
+    .h4{
+        font-size: 20px;
+    }
+    .title{
+        display: flex;
+        flex-direction: column;
+    }
+    #content1>p{
+        padding: 30px 0px 10px 20px;
+    }
+    #content2{
+        margin-top: 80px;
+    }
+    #content3>p{
+        padding: 30px 0px 10px 20px;
+    }
+    #content3>a{
+        margin-left: 20px;
+    }
+    #content4{
+        margin-top: 90px;
+    }
+    .title1{
+        display: flex;
+        flex-direction: column;
+    }
+   
+    .h7{
+        font-size: 40px;
+        padding-top: 100px;
+   
+     } 
+    .h7>p {
+        margin-left: 2px;
+        margin-right: 2px;
+    }
+    .g1{
+        margin-left: 10px;
+        margin-right: 10px;
+    
+    }
+   
+    .h89{
+       display: none;
+    }
+    #h10>p{
+        margin-left: 0px;
+        margin-right: 0px;
+        font-size: 20px;
+
+    }
+    .kk3{
+        margin-left: 140px;
+        margin-right: 140px;
+        
+    }
+    #m7{
+       display: none;
+    }
+    #m8{
+        display: none;
+    }
+    footer{
+        background-size: 100% 100%;
+    }
+    #h12{
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    .h13{
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    .h14{
+        float: none;
+       
+    }
+    
+    .h16>a>i{
+        padding-left: 20px;
+    }
+    #m10{
+        padding-top: 80px;
+    }
+}   
